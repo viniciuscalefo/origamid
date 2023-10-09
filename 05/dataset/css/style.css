@@ -221,11 +221,11 @@ html.texto-maior{
     }
 }
 
-.js[data-tab="content"]section{
+.js [data-tab="content"] section{
     display: none;
 }
 
-[data-tab="content"]section.ativo{
+[data-tab="content"] section.ativo{
     display: block !important;
 }
 

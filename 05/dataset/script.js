@@ -1,11 +1,11 @@
-const div= document.querySelector('div')
+/*const div= document.querySelector('div')
 console.log(Object.prototype.toString.call(div))
 
 div.dataset.totalHeight=2000
 
 delete div.dataset.cor
 
-console.log(div.dataset)
+console.log(div.dataset)*/
 
 /**********************EXERCICIOS*******************/
 // Adicione um atributo data-anime="show-down" e
