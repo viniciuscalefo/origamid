@@ -16,12 +16,14 @@ body{
     background-color: #faf6eb;
     color: #222;
     -webkit-font-smoothing:antialiased;
-    display: grid;
-    grid-template-columns: 1fr 120px minmax(300px,800px) 1fr;
+
 }
 html.texto-maior{
     font-size: 120%;
 }
+.grid-container{    
+    display: grid;
+    grid-template-columns: 1fr 120px minmax(300px,800px) 1fr;}
 
 .menu{
     grid-column: 3/5;
@@ -188,7 +190,7 @@ html.texto-maior{
 }
 
 @media(max-width:700px){
-    body{
+    .grid-container{
         grid-template-columns: 1fr;
     }
 
