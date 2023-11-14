@@ -42,7 +42,7 @@
   }
 
   .js .dropdown-menu{
-    position: static;
+    position: static; /*faz com que o sub-menu fique dentro do menu e não sobre ele*/
     border: none
     }
 }
